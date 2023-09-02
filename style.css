@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(landscape.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#time {
+    font-size: 8vw;
+    color: rgb(37, 70, 70);
+    font-family: 'Codystar', cursive;
+    font-weight: 900;
+}
+
+#clock {
+    display: flex;
+    flex-direction: row;
+    font-size: 12vw;
+    color: rgb(21, 21, 21);
+    font-family: 'Graduate', cursive;
+    text-shadow: 6px 7px 10px #7f7f7f;
+}
+
+#ap {
+    font-size: 5vw;
+    align-self: center;
+}
+
+#date {
+    color: rgb(37, 70, 70);
+    font-family: 'Codystar', cursive;
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+.blink {
+    opacity: 0;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #30280e29;
+    border: 1px dotted white;
+    border-radius: 20px;
+    text-shadow: 2px 2px 20px #ffc106;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}

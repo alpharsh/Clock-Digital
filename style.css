@@ -18,9 +18,11 @@ body {
 
 #time {
     font-size: 8vw;
-    color: rgb(37, 70, 70);
-    font-family: 'Codystar', cursive;
+    color: #bca559;
+    /* font-family: 'Codystar', cursive; */
+    font-family: 'Playfair Display', serif;
     font-weight: 900;
+    text-shadow: 3px 1px 62px #f0ee7fab;
 }
 
 #clock {
@@ -39,7 +41,8 @@ body {
 
 #date {
     color: rgb(37, 70, 70);
-    font-family: 'Codystar', cursive;
+    /* font-family: 'Codystar', cursive; */
+    font-family: 'Playfair Display', serif;
     font-weight: 600;
     font-size: 3vw;
 }

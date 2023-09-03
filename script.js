@@ -40,13 +40,7 @@ let time = () => {
     let dd = a.toDateString()                 // this will get date 
     document.getElementById("date").innerHTML = dd;
 }
-setInterval(time, 100);
-
-// Audio code
-let audio = document.getElementById("tick")
-setInterval(() => {
-    audio.play()           // play audio every second
-}, 1000);
+setInterval(time, 1000);
 
 // Blink code
 let blink = document.getElementsByTagName("b")
